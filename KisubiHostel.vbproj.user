@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="ActivityLogForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AllocationsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ApplicationsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ComplaintsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExeatForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FinesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HostelsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InventoryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NoticesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaymentsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RoomsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StaffForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsersForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VisitorsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

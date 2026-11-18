@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>HostelSystem</RootNamespace>
+    <AssemblyName>KisubiHostelSystem</AssemblyName>
+    <StartupObject>HostelSystem.Program</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <Title>University of Kisubi Hostel Management System</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashboardForm.Designer.vb">
+      <DependentUpon>DashboardForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportsForm.Designer.vb">
+      <DependentUpon>ReportsForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrudForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CrudForm.Designer.vb">
+      <DependentUpon>CrudForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
